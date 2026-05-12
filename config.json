@@ -3,6 +3,6 @@
     "name": "n8n",
     "supabase_url": "https://tgnuttgyuoajcjhywvsw.supabase.co",
     "supabase_key_env": "SUPABASE_KEY_1",
-    "table_name": "project_relation"
+    "table_name": "keep_alive"
   }
 ]
