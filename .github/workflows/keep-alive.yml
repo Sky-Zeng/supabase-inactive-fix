@@ -6,7 +6,7 @@ name: Supabase Keep-Alive
 
 on:
   schedule:
-    # Run at midnight UTC every hour
+    # Run at UTC every hour
     - cron: '15 * * * *'
 
   # Allow manual triggering from the Actions tab
