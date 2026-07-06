@@ -4,5 +4,11 @@
     "supabase_url": "https://tgnuttgyuoajcjhywvsw.supabase.co",
     "supabase_key_env": "SUPABASE_KEY_1",
     "table_name": "keep_alive"
+  },
+  {
+    "name": "NewAPI",
+    "supabase_url": "https://azojpnqmkxnpczowbias.supabase.co",
+    "supabase_key_env": "SUPABASE_KEY_2",
+    "table_name": "keep_alive"
   }
 ]
