@@ -1,0 +1,12 @@
+name: KeepRepoAlive
+on:
+  schedule:
+    - cron: '0 0 */25 * *'  # 每25天运行一次，完美避开60天禁用期
+jobs:
+  keep-alive:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # 赋予写入权限
+    steps:
+      - uses: actions/checkout@v5
+      - uses: liskin/gh-workflow-keepalive@v1
